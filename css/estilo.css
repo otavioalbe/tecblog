@@ -19,6 +19,12 @@ h2{
     font-size: 1.5em;
     color: #eab029;
 }
+h3{
+    color:#333;
+    background: #cdcdcd;
+    margin-bottom: 10px;
+    padding: 5px;
+}
 
 #header a:link,#header a:visited{
     text-decoration: none;
@@ -93,18 +99,40 @@ img{
     margin: 15px 0px 15px 0px;
 }
 
-.botao{
+a{
     text-decoration: none;
     color: #eab029;
-    background: none;
+
 }
+
+/* FORMATAÇÃO ÁREA LATERAL */
 
 #area-lateral{
     float: right;
     width: 400px;
-    background: #fff;
-    border: 1px solid red;
 }
+
+.conteudo-lateral{
+    border-radius: 10px;
+    padding: 15px 15px 5px 15px;
+    background: #fff;
+    margin-bottom: 15px;
+}
+
+.texto-lateral{
+    font-size: 0.9em;
+    margin-top: 8px;
+    padding-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding-bottom: 8px;
+}
+
+
+
+/* FORMATAÇÃO RODAPÉ */
 
 #rodape{
     position: static;
