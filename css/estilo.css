@@ -5,18 +5,35 @@
 
 body{
 
-    font-size: 1em;
+    font-size: 1.2em;
     font-family: 'Trebuchet MS', Helvetica, sans-serif;
-    background: #e6e6e6
+    background: #dddddd
 }
 
-a:link,a:visited{
+p,#area-principal span{
+    font-size: 1em;
+    color: #333;
+    padding: 15px;
+}
+
+img{
+    margin-left: 15px;
+    padding: 15px 0px 0px 0px;
+}
+
+h2{
+    font-size: 1.5em;
+    color: #eab029;
+    padding: 15px 0px 0px 15px;
+}
+
+#header a:link,#header a:visited{
     text-decoration: none;
     color: #ffffff;
     padding: 10px;
 }
 
-a:hover{
+#header a:hover{
     background: #ffffff;
     color: #eab029;
 }
@@ -46,4 +63,51 @@ a:hover{
     color: #fff;
 }
 
+.bold{
+    font-weight: bold;
+}
+
 /* FORMATAÇÃO FEED */
+
+#area-principal{
+    width: 1140px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 0px;
+}
+
+#area-feed{
+    width: 670px;
+    float: left;
+    border-radius: 15px;
+}
+
+.postagem{
+    background: #fff;
+    padding: 0px 0px 15px 0px;
+    margin-bottom: 15px;
+}
+
+.botao{
+    background: none;
+    color: #eab029;
+    padding: 15px;
+}
+
+#area-lateral{
+    float: right;
+    width: 400px;
+    background: #fff;
+    border: 1px solid red;
+}
+
+#rodape{
+    position: static;
+    bottom: 0;
+    width: 100%;
+    background: #eab029;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0px;
+    margin-top: 10px;
+}
