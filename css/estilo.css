@@ -4,27 +4,20 @@
 }
 
 body{
-
     font-size: 1.2em;
     font-family: 'Trebuchet MS', Helvetica, sans-serif;
     background: #dddddd
 }
 
-p,#area-principal span{
+#area-principal span{
+    text-align: justify;
     font-size: 1em;
     color: #333;
-    padding: 15px;
-}
-
-img{
-    margin-left: 15px;
-    padding: 15px 0px 0px 0px;
 }
 
 h2{
     font-size: 1.5em;
     color: #eab029;
-    padding: 15px 0px 0px 15px;
 }
 
 #header a:link,#header a:visited{
@@ -35,6 +28,11 @@ h2{
 
 #header a:hover{
     background: #ffffff;
+    color: #eab029;
+}
+
+a:hover{
+    text-decoration: underline;
     color: #eab029;
 }
 
@@ -84,14 +82,21 @@ h2{
 
 .postagem{
     background: #fff;
-    padding: 0px 0px 15px 0px;
+    padding: 15px;
     margin-bottom: 15px;
 }
 
+span, p{
+    padding-bottom: 7px;
+}
+img{
+    margin: 15px 0px 15px 0px;
+}
+
 .botao{
-    background: none;
+    text-decoration: none;
     color: #eab029;
-    padding: 15px;
+    background: none;
 }
 
 #area-lateral{
