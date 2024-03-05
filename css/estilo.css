@@ -9,3 +9,41 @@ body{
     font-family: 'Trebuchet MS', Helvetica, sans-serif;
     background: #e6e6e6
 }
+
+a:link,a:visited{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px;
+}
+
+a:hover{
+    background: #ffffff;
+    color: #eab029;
+}
+
+.clear{
+    clear: both;
+}
+/* FORMATAÇÃO CABEÇALHO */
+#header{
+    background: #eab029;
+    color: #fff;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+#logo{
+    font-size: 1.5em;
+    color: rgb(81, 81, 81);
+    padding: 30px;
+}
+
+#menu{
+    padding: 0px 0px 30px 0px;
+}
+
+.branco{
+    color: #fff;
+}
+
+/* FORMATAÇÃO FEED */
